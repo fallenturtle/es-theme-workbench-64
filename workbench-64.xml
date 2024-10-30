@@ -1,0 +1,325 @@
+<!--
+theme name:	Workbench 64
+description: A Commodore 64-clone theme. An edited and changed alteration of the Amiga-clone Workbench theme by Eric Hettervik (Rookervik) 
+console images from by Eric Hettervik
+version: 1.0.0
+author: Andrew  Bailey (fallenturle) https://github.com/fallenturtle
+license: creative commons CC-BY-NC-SA or ALL ERIC'S!!!!!, depending on your perspective.
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+    <variables>
+        <lightBlue>0B8DF8</lightBlue>
+        <darkBlue>0000A3</darkBlue>
+        <mainFont>C64.TTF</mainFont>
+        <baseFontSize>0.045</baseFontSize>
+        <alignLeft>0.055</alignLeft>
+        <!-- Modify to set system screen title -->
+        <!--<systemHeaderString>**** BLUEBERRY PI 64 V3.14 ****</systemHeaderString>-->
+        <systemHeaderString>**** RETROPIE 64 BASIC V3.14 ****</systemHeaderString>
+    </variables>
+
+    <view name="detailed, video, grid, system, basic"> 
+        <image name="foreground" extra="true">
+            <tile>false</tile>
+            <pos>0.0 0.0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <!-- overlay version of foreground has guide lines for alining text-->
+            <path>./art/bground-frame-overlay.png</path>
+            <!-- <path>./art/bground-frame.png</path> -->
+            <zIndex>99</zIndex>
+        </image>
+
+        <image name="background" extra="true">
+            <tile>true</tile>
+            <pos>0.0 0.0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <path>./art/1x1-0000a3.png</path>
+            <zIndex>1</zIndex>
+        </image>
+
+<!-- default help text doesn't fit well on screen, so we hide it and use our own. -->
+<helpsystem name="help">
+<pos>2 2</pos>
+</helpsystem>
+
+<text name="helpText" extra="true">
+<fontPath>./art/${mainFont}</fontPath>
+<text>(A) Select  (START) ES Menu</text>
+<fontSize>${baseFontSize}</fontSize>
+<backgroundColor>00000000</backgroundColor>
+<color>E9F4FE</color>
+<origin>0 0</origin>
+<pos>0.034 0.844</pos>
+<size>1 0.2</size>
+<alignment>left</alignment>
+<zIndex>100</zIndex>
+</text>
+</view>
+
+<view name="system">
+
+<!-- System header text -->
+<text name="headerText" extra="true">
+    <fontPath>./art/${mainFont}</fontPath>
+    <text>${systemHeaderString}</text>
+    <fontSize>${baseFontSize}</fontSize>
+    <backgroundColor>00000000</backgroundColor>
+    <color>${lightBlue}</color>
+    <origin>0 0</origin>
+    <pos>0 0.038</pos>
+    <size>1 0.2</size>
+    <alignment>center</alignment>
+    <zIndex>80</zIndex>
+</text>
+
+<image name="console" extra="true">
+<tile>false</tile>
+<pos>0.935 0.87</pos>
+<origin>1 1</origin>
+<maxSize>0.35 0.35</maxSize>
+<zIndex>32</zIndex>
+</image>
+
+<!--  Text Logo  -->
+<text name="logoText">
+    <fontPath>./art/${mainFont}</fontPath>
+    <text>${system.fullName}</text>
+    <color>ffffff</color>
+    <forceUppercase>1</forceUppercase>
+    <lineSpacing>1</lineSpacing>
+    <fontSize>${baseFontSize}</fontSize>
+</text>
+
+<!-- use top mask to offset carousel so highlighted system is second to top-->
+<image name="carouselMask" extra="true">
+    <tile>true</tile>
+    <origin>0 0</origin>
+    <pos>0 0.038</pos>
+    <size>1 0.2</size>
+    <path>./art/1x1-0000a3.png</path>
+    <zIndex>12</zIndex>
+</image>
+
+<!--bottom mask is used to cover the last item in the system list because it pops in for some reason and looks bad -->
+<image name="carouselMask2" extra="true">
+    <tile>true</tile>
+    <origin>0 0</origin>
+    <pos>0 0.50</pos>
+    <size>1 0.2</size>
+    <path>./art/1x1-0000a3.png</path>
+    <zIndex>12</zIndex>
+</image>
+
+<carousel name="systemcarousel">
+    <type>vertical</type>
+    <origin>0 0</origin>
+    <pos>-0.045 0.0285</pos>
+    <size>1 0.5501</size>
+    <logoScale>1</logoScale>
+    <logoSize>1 1</logoSize>
+    <color>00000000</color>
+    <maxLogoCount>13</maxLogoCount>
+    <logoAlignment>left</logoAlignment>
+    <zIndex>11</zIndex>
+</carousel>
+
+<!--  Carousel Text  -->
+<text name="systemInfo">
+    <fontPath>./art/${mainFont}</fontPath>
+    <fontSize>${baseFontSize}</fontSize>
+    <backgroundColor>00000000</backgroundColor>
+    <color>${lightBlue}</color>
+    <origin>0 0</origin>
+    <pos>0 0.1</pos>
+    <size>1 0.2</size>
+    <alignment>center</alignment>
+    <zIndex>99</zIndex>
+    <forceUppercase>false</forceUppercase>
+</text>
+
+<text name="helpText" extra="true">
+    <text>(A) Select  (START) ES Menu</text>
+</text>
+<text name="stats" extra="true">
+        <origin>0 0 </origin>
+        <pos>${alignLeft} 0.534</pos>
+        <size>0.58 0</size>
+        <lineSpacing>1.11</lineSpacing>
+            <fontPath>./art/${mainFont}</fontPath>
+    <fontSize>${baseFontSize}</fontSize>
+        <zIndex>999</zIndex>
+        <color>${lightBlue}</color>
+</text>
+</view>
+
+
+
+<view name="detailed, video, grid, basic">
+
+    <text name="helpText" extra="true">
+        <fontPath>./art/${mainFont}</fontPath>
+        <text>(A) Launch  (X) Back  (START) ES Menu</text>
+        <fontSize>${baseFontSize}</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <color>E9F4FE</color>
+        <origin>0 0</origin>
+        <pos>0.034 0.844</pos>
+        <size>1 0.2</size>
+        <alignment>left</alignment>
+        <zIndex>100</zIndex>
+    </text>
+
+    <textlist name="gamelist">
+        <origin>0 0</origin>
+        <pos>${alignLeft} 0.1821</pos>
+        <size>0.885 0.40</size>
+        <alignment>left</alignment>
+        <lineSpacing>0.9378</lineSpacing>
+        <fontPath>./art/${mainFont}</fontPath>
+        <fontSize>${baseFontSize}</fontSize>
+        <forceUppercase>0</forceUppercase>
+        <selectorColor>00000000</selectorColor>
+        <selectedColor>FFFFFF</selectedColor>
+        <primaryColor>7171c2</primaryColor>
+        <secondaryColor>888888</secondaryColor>
+    </textlist>
+
+    <text name="logoText" extra="true">
+        <fontPath>./art/${mainFont}</fontPath>
+        <text>**** ${system.fullName} ****</text>
+        <fontSize>${baseFontSize}</fontSize>
+        <backgroundColor>00000000</backgroundColor>
+        <color>${lightBlue}</color>
+        <origin>0 0</origin>
+        <pos>0 0.111</pos>
+        <size>1 0</size>
+        <alignment>center</alignment>
+        <zIndex>80</zIndex>
+        <forceUppercase>1</forceUppercase>
+    </text>
+
+</view>
+
+
+
+<view name="detailed, video">
+
+    <!-- Setting Fonts and sizes and setting position for some elements off-screen   -->
+    <text name="md_description, md_lbl_description, md_playcount, md_lbl_playcount, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_lastplayed, md_lbl_rating">
+        <color>${lightBlue}</color>
+        <pos>1 1</pos>
+        <fontSize>${baseFontSize}</fontSize>
+        <forceUppercase>0</forceUppercase>
+        <fontPath>./art/${mainFont}</fontPath>
+    </text>
+
+    <text name="md_genre">
+        <pos>${alignLeft} 0.634</pos>
+        <size>0.58 0.01</size>
+        <lineSpacing>1.17</lineSpacing>
+        <!-- <origin>0 0</origin> -->
+    </text>
+
+    <datetime name="md_releasedate">
+        <format>%Y</format>
+        <pos>${alignLeft} 0.693</pos>
+        <size>0 0</size>
+        <zIndex>111</zIndex>
+        <fontSize>${baseFontSize}</fontSize>
+        <forceUppercase>0</forceUppercase>
+        <fontPath>./art/${mainFont}</fontPath>
+        <color>${lightBlue}</color>
+    </datetime>
+
+    <text name="md_lbl_players">
+        <pos>${alignLeft} 0.654</pos>
+        <size>0 0</size>
+    </text>
+
+    <text name="md_players">
+        <pos>0.265 0.654</pos>
+        <size>0 0</size>
+    </text>
+
+    <text name="md_description">
+    <pos>${alignLeft} 0.869</pos>
+        <size>0.6 0.125</size>
+        <lineSpacing>1.14</lineSpacing>
+        <origin>0 1</origin>
+</text>
+
+</view>  
+
+
+<view name="detailed">
+
+    <image name="md_image">
+        <pos>0.811 0.745</pos>
+        <maxSize>0.35 0.27</maxSize>
+    </image>
+
+</view>
+
+<view name="video">
+
+    <video name="md_video">
+        <pos>0.811 0.745</pos>
+        <maxSize>0.35 0.27</maxSize>
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+    </video>
+
+</view>
+
+
+<view name="basic">
+
+    <textlist name="gamelist">
+        <size>0.885 0.7</size>
+    </textlist>
+
+</view>
+
+
+<view name="grid">
+
+    <imagegrid name="gamegrid">
+        <pos>0.075 0.28</pos>
+        <size>0.85 0.6</size>
+        <margin>0.025 0.025</margin>
+        <scrollDirection>vertical</scrollDirection>
+        <animate>true</animate>
+        <autoLayout>3 2</autoLayout>
+        <gameImage>./art/floppy.png</gameImage>
+        <autoLayoutSelectedZoom>1.25</autoLayoutSelectedZoom>
+    </imagegrid>
+
+    <gridtile name="default">
+        <imageColor>ffffff88</imageColor> 
+        <backgroundColor>ffffff00</backgroundColor>
+    </gridtile>
+
+    <gridtile name="selected">
+        <imageColor>ffffffff</imageColor>
+        <backgroundColor>ffffff00</backgroundColor>
+    </gridtile>
+
+    <text name="md_name">
+        <fontPath>./art/${mainFont}</fontPath>
+        <fontSize>${baseFontSize}</fontSize>
+        <forceUppercase>true</forceUppercase>
+        <lineSpacing>1.18</lineSpacing>
+        <origin>0.5 0</origin>
+        <pos>0.5 0.178</pos>
+        <size>0.8 0</size>
+        <alignment>center</alignment>
+        <color>ffffff</color>
+        <visible>true</visible>
+    </text>
+
+</view>
+
+</theme>

@@ -1,20 +1,26 @@
 <theme>
-    <formatVersion>3</formatVersion>
-    <include>./../workbench.xml</include>
+    <formatVersion>4</formatVersion>
+    <include>./../workbench-64.xml</include>
 
 	<view name="system">
 	
+		<!--
 		<image name="logo">
 			<path>./logo.png</path>
         </image>
+        -->
 		
 		<image name="console" extra="true">
 			<path>./console.png</path>
-			<pos>0.678 0.855</pos>
-			<maxSize>0.289 0.203</maxSize>
-			<origin>0.5 0.5</origin>
 		</image>
-		
+		<text name="stats" extra="true">
+			<text>1991 (JP)/ 1992 (NA)
+4th gen CD-ROM add-on
+Sprite rotation and scaling
+Sound: Sampler
+10 voice 8-bit PCM
+			</text>
+		</text>
 	</view>
 
 	<view name="basic, detailed">
@@ -22,17 +28,21 @@
 
 	<view name="basic">
 
+		<!--
 		<image name="logo">
 			<path>./logo.png</path>
-		</image>
+        </image>
+        -->
 		
 	</view>
 
 	<view name="detailed">
 	
+		<!--
 		<image name="logo">
 			<path>./logo.png</path>
-		</image>
+        </image>
+        -->
 		
 	</view>
 	

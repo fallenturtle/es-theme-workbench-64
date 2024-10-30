@@ -1,5 +1,5 @@
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
     <include>./../pixel.xml</include>
 
 	<view name="system">
@@ -21,9 +21,11 @@
 			<path>./console.png</path>
 		</image>
 		
+		<!--
 		<image name="logo">
 			<path>./logo.png</path>
         </image>
+        -->
 		
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
