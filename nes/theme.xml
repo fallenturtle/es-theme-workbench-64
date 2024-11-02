@@ -14,11 +14,11 @@
 	<image name="console" extra="true">
 		<path>./console.png</path>
 	</image>
-<text name="stats" extra="true"><text>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues--> 
-1983 (JP) / 1985 (US)
+<text name="stats" extra="true">
+<text>1983 (JP) / 1985 (US)
 3rd gen 8-bit console
 Colors on screen: 25
 Palette: 54
