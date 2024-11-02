@@ -27,8 +27,8 @@ license: creative commons CC-BY-NC-SA or ALL ERIC'S!!!!!, depending on your pers
             <origin>0 0</origin>
             <size>1 1</size>
             <!-- overlay version of foreground has guide lines for alining text-->
-            <path>./art/bground-frame-overlay.png</path>
-            <!-- <path>./art/bground-frame.png</path> -->
+            <!-- <path>./art/bground-frame-overlay.png</path> -->
+            <path>./art/bground-frame.png</path>
             <zIndex>99</zIndex>
         </image>
 
