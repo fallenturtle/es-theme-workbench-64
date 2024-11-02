@@ -4,11 +4,7 @@
 
 	<view name="system">
 	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
+
 		
 		<image name="console" extra="true">
 			<path>./console.png</path>
@@ -24,27 +20,6 @@ Sound: Sampler
 		</text>		
 	</view>
 
-	<view name="basic, detailed">
-	</view>
 
-	<view name="basic">
-
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
-
-	<view name="detailed">
-	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
 	
 </theme>

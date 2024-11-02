@@ -4,39 +4,22 @@
 
 	<view name="system">
 	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
+
 		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-		
+			<text name="stats" extra="true">
+			<text>1977
+8-bit computer
+Colors: 16
+Resolution: various
+Sound: 1-bit clicks
+1 voice
+			</text>
+		</text>		
 	</view>
 
-	<view name="basic, detailed">
-	</view>
 
-	<view name="basic">
-
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
-
-	<view name="detailed">
-	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
 	
 </theme>

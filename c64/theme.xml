@@ -4,48 +4,23 @@
 
 	<view name="system">
 	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
+
 		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
 		<text name="stats" extra="true">
-			<text>1982
+			<text>1984
 8-bit computer
 Colors: 16
-Resolution: 320x200
+Resolution: 160x200
 Sound: PSG
-3 voices, pulse, noise
-triangle, sawtooth
+3 voices
+Square waves and noise
 			</text>
 		</text>		
 	</view>
 
-	<view name="basic, detailed">
-	</view>
 
-	<view name="basic">
-
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
-
-	<view name="detailed">
-	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
 	
 </theme>

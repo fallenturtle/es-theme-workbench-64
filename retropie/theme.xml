@@ -36,42 +36,23 @@
 
 	<view name="system">
 	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
+
 		<text name="logoText">
 			<text>Retropie Settings</text>
     	</text>  
 
-		<image name="console" extra="true">
-			<path>./console.png</path>
-		</image>
+	<image name="console" extra="true">
+		<path>./console.png</path>
+	</image>
 		
-	</view>
 
-	<view name="basic, detailed">
-	</view>
 
-	<view name="basic">
+<text name="stats" extra="true"><text>
+ <!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues--> 
 
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
+</text></text>
 
-	<view name="detailed">
-	
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
-		
-	</view>
 	
 </theme>

@@ -21,11 +21,7 @@
 			<path>./console.png</path>
 		</image>
 		
-		<!--
-		<image name="logo">
-			<path>./logo.png</path>
-        </image>
-        -->
+
 		
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
