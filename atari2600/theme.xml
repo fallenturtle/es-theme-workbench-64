@@ -9,15 +9,17 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-		<text name="stats" extra="true">
-			<text>1988 (US)/ 1983 (JP)
+<!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues-->
+<text name="stats" extra="true"><text>
+1977 (US)/ 1983 (JP)
 2nd gen 8-bit console
 Colors: 128
 Resolution: 160x192
 Sound: PSG
-2 voices,
-Pulse waves and noise
-			</text>
+2 voices
+Pulse waves and noise</text>
 		</text>
 	</view>
 

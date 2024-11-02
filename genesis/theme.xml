@@ -9,10 +9,10 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-		<text name="stats" extra="true"><text>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues--> 
+<text name="stats" extra="true"><text>
 1988 (JP) / 1989 (US)
 4th gen 16-bit console
 Colors on screen: 61

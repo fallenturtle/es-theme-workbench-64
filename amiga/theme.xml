@@ -9,14 +9,17 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-		<text name="stats" extra="true">
-			<text>1985
+<!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues-->
+<text name="stats" extra="true"><text>
+1985
 16/32-bit computer family
 Colors on screen: 32/64/256
 Palette: 4,096/16.8M
 Sound: Sampler
 4 voices 8-bit PCM
-			</text>
+</text>
 		</text>		
 	</view>
 

@@ -9,16 +9,18 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-				<text name="stats" extra="true">
-<text>1990 (JP) / 1991 (US)
+<!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues-->
+<text name="stats" extra="true"><text>
+1990 (JP) / 1991 (US)
 4th gen 16-bit console
 Colors on screen: 256
 Palette: 32,768 
 Sound: Sampler
 16-bit stereo
 8 voices
-</text>
-		</text>
+</text></text>
 	</view>
 
 

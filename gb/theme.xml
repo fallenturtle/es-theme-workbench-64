@@ -9,16 +9,18 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-				<text name="stats" extra="true">
-<text>1989
+<!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues-->
+<text name="stats" extra="true"><text>
+1989
 4th gen 8-bit handheld
 Shades on screen: 4
 Resolution: 160x144
 Sound: PSG
 2 pulse waves,
 1 assignable wave,
-1 noise</text>
-		</text>
+1 noise</text></text>
 	</view>
 
 

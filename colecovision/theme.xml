@@ -9,15 +9,18 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-				<text name="stats" extra="true">
-			<text>1982
-2md gen 8-bit console
+<!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues-->
+<text name="stats" extra="true"><text>
+1982
+2nd gen 8-bit console
 Colors: 16
 Resolution: 256×192
 Sound: PSG
-4 voices
-3 square, 1 noise</text>
-		</text>	
+4 voices: 3 square,
+1 noise</text>
+</text>	
 	</view>
 
 

@@ -9,16 +9,12 @@
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-			<text name="stats" extra="true"><text>
-Fifth Gen
-32-bit
-True Color
-320×240
-Sound: CD Audio
-17 PCM channels
-44.1khz 16-bit 
-		</text>	
-	</view>
+<!-- System stats/metadata: 
+	 Max 8 rows, 24 column 
+	 remove all space to the left to avoid display issues-->
+<text name="stats" extra="true"><text>
+
+</text>	</view>
 
 
 	
