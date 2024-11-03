@@ -1,23 +1,23 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
-	<view name="system">
-	
-
-		
-	<image name="console" extra="true">
-		<path>./console.png</path>
-	</image>
-		
-
-
-<text name="stats" extra="true"><text>
- <!-- System stats/metadata: 
+	<view name="system">		
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+<!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
-	 remove all space to the left to avoid display issues--> 
-
-</text></text>
-</view>
+	 remove all space to the left to avoid display issues-->
+		<text name="stats" extra="true">
+<text>1990 (JP)/1991 (US)
+4th gen 8-bit handheld
+Colors on screen: 32
+Palette: 4,096
+Resolution: 160x140
+Sound: PSG
+3 square wave,
+1 noise</text>
+		</text>
+	</view>
 	
 </theme>

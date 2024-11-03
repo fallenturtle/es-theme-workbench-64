@@ -8,27 +8,21 @@
 			<text>** Nintendo Entertainment System **</text>
         </text>
 	</view>
-
 	<view name="system">
-	
-	<image name="console" extra="true">
-		<path>./console.png</path>
-	</image>
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues--> 
-<text name="stats" extra="true">
+		<text name="stats" extra="true">
 <text>1983 (JP) / 1985 (US)
 3rd gen 8-bit console
 Colors on screen: 25
 Palette: 54
 Sound: PSG, 
 2 pulse, 1 triangle,
-1 noise, PCM 8-bit
-</text>
-</text>
-</view>
-
-
-	
+1 noise, PCM 8-bit</text>
+		</text>
+	</view>
 </theme>

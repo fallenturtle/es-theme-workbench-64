@@ -1,29 +1,21 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues-->
-<text name="stats" extra="true"><text>
-1983
+		<text name="stats" extra="true">
+<text>1983
 3rd gen 8-bit consle
 Colors on screen: 16
 Palette: 16
 Sound: PSG
 3 square wave,
-1 white noise
-</text>
-</text>		
-</view>
-
-
-	
+1 noise</text>
+		</text>		
+	</view>	
 </theme>

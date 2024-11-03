@@ -1,28 +1,21 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues-->
-<text name="stats" extra="true"><text>
-1982
+		<text name="stats" extra="true">
+<text>1982
 2nd gen 8-bit console
 Colors: 16
 Resolution: 256×192
 Sound: PSG
-4 voices: 3 square,
+4 voices 3 square,
 1 noise</text>
-</text>	
+		</text>	
 	</view>
-
-
-	
 </theme>

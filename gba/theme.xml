@@ -1,23 +1,25 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
 	
-
-		
-	<image name="console" extra="true">
-		<path>./console.png</path>
-	</image>
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
 		
 
 
-<text name="stats" extra="true"><text>
- <!-- System stats/metadata: 
+<!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
-	 remove all space to the left to avoid display issues--> 
-
-</text></text>
-</view>
-	
+	 remove all space to the left to avoid display issues-->
+		<text name="stats" extra="true">
+<text>2001
+6th gen 32-bit handheld
+Colors on screen: 511/all
+Palette: 32,768
+Resolution: 240x160
+Sound: Gameboy's PSG,
+2 voice 8-bit samples</text>
+</text>
+	</view>
 </theme>

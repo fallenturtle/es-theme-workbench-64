@@ -1,22 +1,16 @@
 <theme>
-<formatVersion>4</formatVersion>
-<include>./../workbench-64.xml</include>
-
-<view name="system">
-		
-	<image name="console" extra="true">
-		<path>./console.png</path>
-	</image>
-		
-
-
-<text name="stats" extra="true"><text>
- <!-- System stats/metadata: 
+    <formatVersion>4</formatVersion>
+    <include>./../workbench-64.xml</include>
+	<view name="system">
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+<!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
-	 remove all space to the left to avoid display issues--> 
-
-</text></text>
-
-</view>
-	
+	 remove all space to the left to avoid display issues-->
+		<text name="stats" extra="true">
+<text>
+</text>
+		</text>
+	</view>
 </theme>

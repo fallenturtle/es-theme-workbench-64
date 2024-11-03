@@ -1,15 +1,11 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
-<text name="stats" extra="true">
+		<text name="stats" extra="true">
 <text>1991 (JP)/ 1992 (NA)
 4th gen CD-ROM add-on
 Sprite rotation and scaling
@@ -17,7 +13,4 @@ Sound: Sampler
 10 voice 8-bit PCM</text>
 		</text>
 	</view>
-
-
-	
 </theme>

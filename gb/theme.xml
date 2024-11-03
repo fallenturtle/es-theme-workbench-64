@@ -1,11 +1,7 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
@@ -21,9 +17,6 @@ Sound: PSG
 2 pulse waves,
 1 assignable wave,
 1 noise</text>
-</text>
+		</text>
 	</view>
-
-
-	
 </theme>

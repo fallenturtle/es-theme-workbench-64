@@ -1,11 +1,7 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
@@ -20,9 +16,6 @@ Palette: 32,768
 Sound: Sampler
 16-bit stereo
 8 voices</text>
-</text>
+		</text>
 	</view>
-
-
-	
 </theme>

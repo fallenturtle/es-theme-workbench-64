@@ -1,28 +1,22 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues-->
-<text name="stats" extra="true"><text>1994
+		<text name="stats" extra="true">
+<text>1994
 5th gen 32-bit add-on
 Colors on screen: 61
 Palette: 512
 Sound: FM + PSG
 5-6 voices FM,
 0-1 voice 8-bit PCM,
-3 square waves, 1 noise
-</text></text>
+3 square waves, 1 noise</text>
+		</text>
 	</view>
-
-
-	
 </theme>

@@ -1,18 +1,14 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../workbench-64.xml</include>
-
 	<view name="system">
-	
-
-		
 		<image name="console" extra="true">
 			<path>./console.png</path>
 		</image>
 <!-- System stats/metadata: 
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues--> 
-<text name="stats" extra="true">
+		<text name="stats" extra="true">
 <text>1988 (JP) / 1989 (US)
 4th gen 16-bit console
 Colors on screen: 61
@@ -21,9 +17,6 @@ Sound: FM + PSG
 5-6 voices FM,
 0-1 voice 8-bit PCM,
 3 square waves, 1 noise</text>
-</text>
-</view>
-
-
-	
+		</text>
+	</view>
 </theme>
