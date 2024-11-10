@@ -22,7 +22,7 @@ Colors on screen: 25
 Palette: 54
 Sound: PSG, 
 2 pulse, 1 triangle,
-1 noise, PCM 8-bit</text>
+1 noise, PCM 6-bit</text>
 		</text>
 	</view>
 </theme>

@@ -9,8 +9,12 @@
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues-->
 		<text name="stats" extra="true">
-<text>
-</text>
+<text>1979
+8-bit computer
+Colors: 128
+Sound: PSG
+4 voices
+Square waves</text>
 		</text>
 	</view>
 </theme>

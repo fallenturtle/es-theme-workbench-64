@@ -9,8 +9,13 @@
 	 Max 8 rows, 24 column 
 	 remove all space to the left to avoid display issues-->
 		<text name="stats" extra="true">
-<text>
-</text>
+<text>1982
+2nd gen 8-bit console
+Colors per scanline: 23
+Palette: 128/256
+Sound: PSG
+4 voices
+Square waves</text>
 		</text>
 	</view>
 </theme>

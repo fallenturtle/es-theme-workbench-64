@@ -11,8 +11,8 @@
 		<text name="stats" extra="true">
 <text>1983
 3rd gen 8-bit consle
-Colors on screen: 16
-Palette: 16
+Colors on screen: 32
+Palette: 64
 Sound: PSG
 3 square wave,
 1 noise</text>
